@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install:*)",
+      "Bash(npm run check:*)",
+      "Bash(pnpm install:*)",
+      "Bash(npx pnpm:*)",
+      "Bash(rm:*)",
+      "Bash(pnpm run dev)",
+      "Bash(npx tsx watch:*)",
+      "Bash(npm run dev:*)",
+      "Bash(pnpm dev)",
+      "Bash(mysql:*)",
+      "Bash(pnpm add:*)",
+      "Bash(pnpm db:push:*)",
+      "Bash(pnpm rebuild:*)",
+      "Bash(drizzle/meta/_journal.json)",
+      "Bash(pnpm approve-builds:*)",
+      "Bash(pnpm remove:*)",
+      "Bash(NODE_OPTIONS=\"--max-old-space-size=4096\" pnpm dev:*)",
+      "Bash(taskkill:*)",
+      "Bash(nul)",
+      "Bash(pnpm list:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
